@@ -1,55 +1,30 @@
 # Bienvenue sur le projet Octobre Rose sous Symfony / React
-Ici vous trouverez le guide d'installation du projet ainsi que le récapitulatif des fonctionnalités mises en place dans l'application. Le projet a été réalisé techniquement parlant en deux semaines et demi. Nous étions quatre collaborateurs : deux développeurs backend et deux développeurs frontend. Côté back-end, nous avons élaboré l'intégralité des fonctionnalités back d'O'Fourneau à savoir la création intégrale de la BDD (avec relation associées et tables pivots), des entités,  des controllers, des API, de l'authentification et de la sécurité, du backoffice et des formulaires associés, des services, des évènements (en Symfony) et de la gestion des conflits et bugs. 
+Projet réaliser en symfo (back) et React en (front)
 
-### Installation du projet
 
-Créer un fichier .env depuis le modèle .envExemple
 
-Ajouter les informations liées à votre bdd dans la section DATABASE_URL : 
-```
-DATABASE_URL="mysql://app:!ChangeMe!@127.0.0.1:3306/app?serverVersion=10.11.2-MariaDB&charset=utf8mb4"
-```
-
-Puis lancer le composer : 
-```
-composer install
-```
-
-## Fonctionnalités 
+## Fonctionnalités côté back
 
 Création et gestion des tables et de la bdd : 
 
-=> ```src/Repository```
+=> ```Backend/src/Repository```
 
-=> ```src/Entity```
+=> ```Backend/src/Entity```
 
-=> ```migrations```
+=> ```Backend/migrations```
 
-Création et gestion des API => ```src/Controller/Api```
+Création et gestion des API => ```Backend/src/Controller/Api```
 
-Création et gestion du backOffice => ```src/Controller/BackOffice```
 
-Création et gestion de l'authentification et des tokens:
+## Fonctionnalités côté front
 
-=> ```src/Controller/SecurityController```
+Components => ```Frontend/src/components```
 
-=> ```src/Security/LoginAuthenticator```
+Axios => ```Frontend/src/actions```
 
-=> ```config/jwt```
+Redux ```Frontend/src/reducers```
 
-=> ```config/packages/security.yaml```
 
-=> ```config/routes.yaml```
-
-Création des vues Twigs => ```templates```
-
-Création des formulaires pour vues Twigs (côté BackOffice) => ```src/Form```
-
-Création des services =>  ```src/Service```
-
-Création des écouteurs d'évenements avec Symfony =>  ```src/EventListener```
-
-Création des fixtures =>  ```src/DataFixtures```
 
 ## Envie d'en savoir plus sur mes projets et mon parcours ?
 

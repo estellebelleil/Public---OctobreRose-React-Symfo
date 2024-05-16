@@ -8,11 +8,13 @@
 /public/bundles/
 /var/
 /vendor/
+/docs/
 
 ###< symfony/framework-bundle ###
 
 ###> lexik/jwt-authentication-bundle ###
 /config/jwt/*.pem
+/config/packages/lexik_jwt_authentication.yaml
 ###< lexik/jwt-authentication-bundle ###
 
 ###> phpunit/phpunit ###
