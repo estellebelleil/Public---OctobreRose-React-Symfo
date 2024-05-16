@@ -1,0 +1,32 @@
+/*_________________________________________________________________________*/
+/*BOUTONS*/
+
+.contains__button
+{
+    /*pour les centrer au milieu de ma page*/
+    display: flex;
+    justify-content: center;
+}
+.button_li
+{
+    
+    list-style: none;/*enleve les points de la liste*/
+    margin : 1em;
+    margin-top: 0em;
+    justify-content: center;
+    background-color:grey;
+    padding: 0.5em 3.5em;
+    border-radius: 0.1em;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    font-weight: bold;
+
+}
+.button li:hover
+{
+    background-color: rgba(66, 42, 24, 0.8);
+}
+.button a
+{
+    color:white
+}

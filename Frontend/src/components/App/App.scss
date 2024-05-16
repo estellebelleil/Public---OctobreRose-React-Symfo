@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Mulish:wght@300;400;700&family=Roboto+Condensed&display=swap');
+/*taille totale de notre page web*/
+body
+{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+/*ce que contient notre article*/
+.contains
+{
+    background:url('../images/background.png');
+    margin: 1em auto;
+    width: 1150px;
+}
+
+.title
+{
+    font-size: 3.2rem;
+    text-align: center;
+    padding-right:0;
+    margin-top:0;
+}
+/*h1 et paragraphe acolé*/
+h1
+{
+    font-size: 1.7em;
+    color:rgba(66, 42, 24, 0.8);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.blocArticle
+{
+    margin-right: 11em;
+    margin-left: 11em;
+
+}

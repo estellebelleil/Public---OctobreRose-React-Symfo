@@ -1,0 +1,56 @@
+/*__________________________________________________________*/
+/*HEADER*/
+
+header
+{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    margin-bottom: 0px;
+}
+#logo
+{
+    margin-left: 2.3em;
+}
+img
+{
+    height:6rem
+}
+.menuheader
+{
+    margin-right: 11rem;
+}
+nav ul /*Propose une navigation en haut de l'header*/
+{
+    display:flex;
+
+}
+li
+{
+    list-style: none;/*enleve les points de la liste*/
+    margin : 1rem;
+    margin-top: 1rem;
+    justify-content: center;
+    background-color: white;
+    padding: 0.6em 0.7em;
+    border-radius: 0.2em;
+    color:rgba(66, 42, 24, 0.8);
+    text-transform: uppercase;
+    font-size: 0.9em;
+    font-weight: bold;
+
+}
+nav a
+{
+    color: black;
+    text-decoration: none;
+}
+nav ul :hover
+{
+    background-color:rgba(66, 42, 24, 0.8);
+}
+nav li :hover
+{
+    background-color:transparent;
+    color: white;
+}
